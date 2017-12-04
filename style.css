@@ -42,10 +42,6 @@ a:hover {
   text-decoration: underline;
 }
 
-h2 {
-  font-size: 70px;
-
-}
 
 video {
   width: 100%;
@@ -55,19 +51,27 @@ video {
 
 
 .parentContainer {
-  font-family: Lihei, sans-serif;
   color: red;
   position: absolute;
   margin-right: 20%;
   margin-left: 50px;
-  margin-top: -90px;
+  margin-top: -46px;
   display:inline-block;
   vertical-align:top;
   float:left;
   overflow-y:scroll;
-  font-size: 65px;
+  font-size: 70px;
 }
 
+.english {
+font-family: Lihei, sans-serif;
+  font-weight: bold;
+}
+
+.chinese {
+    font-family: Adobe-Heiti, sans-serif;
+    font-weight: bold;
+}
 
 #modal1{
   visibility: hidden;
@@ -93,7 +97,7 @@ video {
 
   .parentContainer{
     padding: 0px;
-    margin: -100px 20px 0px 0px;
+    margin: 0px 20px 0px 0px;
   }
 
   h2 {
