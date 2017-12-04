@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   setInterval(function(){
     var pos = scroll.scrollTop();
-    scroll.scrollTop(pos + 7);
+    scroll.scrollTop(pos + 6.5);
   }, 200)
 
 
