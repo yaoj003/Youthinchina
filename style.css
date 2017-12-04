@@ -8,23 +8,22 @@ body, html {
   background-color: white;
   font-family: Lihei, sans-serif;
   padding: 0px;
-  margin-left: 5px;
+  margin-top: 20px;
 }
 
 
 .nav {
-  font-size: 18px;
-  color: red;
+  font-size: 70px;
   text-decoration: none;
   list-style-type: none;
   font-weight: bold;
-  position: fixed;
+  position: absolute;
   display:inline-block;
   vertical-align:top;
   float:left;
-  margin-top: 43px;
+  margin-left: 80%;
   z-index: 100;
-
+  color: red;
 
 }
 
@@ -51,7 +50,7 @@ a:hover {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 70px;
 
 }
 
@@ -66,33 +65,18 @@ video {
 }
 
 .parentContainer {
+  color: red;
   position: absolute;
-  margin-right: 10%;
-  margin-left: 230px;
+  margin-right: 20%;
+  margin-left: 50px;
+  margin-top: -90px;
   display:inline-block;
   vertical-align:top;
   float:left;
   overflow-y:scroll;
+  font-size: 65px;
 }
 
-p {
-  line-height: 140%;
-}
-
-
-#switch {
-  width: 100%;
-  height: auto;
-}
-
-
-#imageContainer{
-  width: 120%;
-  height: auto;
-  margin-top: 5%;
-  margin-left: -7%;
-  z-index: 0;
-}
 
 #modal1{
   visibility: hidden;
@@ -101,9 +85,10 @@ p {
 @media screen and (max-width: 800px) {
 
   .nav{
-    font-size: 12px;
-    margin: 3px;
+    font-size: 24px;
+    margin: 0px;
     padding: 0px;
+    position: absolute;
 
   }
 
@@ -117,11 +102,11 @@ p {
 
   .parentContainer{
     padding: 0px;
-    margin: 0px 20px 0px 100px;
+    margin: -100px 20px 0px 0px;
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
 

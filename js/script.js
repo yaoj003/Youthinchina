@@ -11,23 +11,23 @@ $(document).ready(function() {
     scroll.scrollTop(pos + 6.5);
   }, 200)
 
-
-  //hover container to fade nav
-  $(function() {
-    $('.parentContainer').hover(function() {
-      $('.nav').fadeTo(600, 0);
-    }, function() {
-      $('.nav').fadeTo(600, 1);
-    });
-  });
-
-  $(function() {
-    $('video').hover(function() {
-      $('.nav').fadeTo(600, 0);
-    }, function() {
-      $('.nav').fadeTo(600, 1);
-    });
-  });
+  // 
+  // //hover container to fade nav
+  // $(function() {
+  //   $('.parentContainer').hover(function() {
+  //     $('.nav').fadeTo(600, 0);
+  //   }, function() {
+  //     $('.nav').fadeTo(600, 1);
+  //   });
+  // });
+  //
+  // $(function() {
+  //   $('video').hover(function() {
+  //     $('.nav').fadeTo(600, 0);
+  //   }, function() {
+  //     $('.nav').fadeTo(600, 1);
+  //   });
+  // });
 
   // change logo gif
 
