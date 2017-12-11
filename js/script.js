@@ -8,10 +8,10 @@ $(document).ready(function() {
 
   setInterval(function(){
     var pos = scroll.scrollTop();
-    scroll.scrollTop(pos + 6.5);
+    scroll.scrollTop(pos + 6);
   }, 200)
 
-  // 
+  //
   // //hover container to fade nav
   // $(function() {
   //   $('.parentContainer').hover(function() {

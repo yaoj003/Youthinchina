@@ -29,7 +29,15 @@ body, html {
 
 
 .nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  display:inline-block;
+  border-bottom:6px solid red;
+  padding-bottom:5px;
+}
+
+.parentContainer a:hover{
+text-decoration: underline;
+
 }
 
 a:-webkit-any-link {
@@ -39,7 +47,7 @@ a:-webkit-any-link {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
